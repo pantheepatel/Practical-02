@@ -39,9 +39,5 @@ class Program
         Customer_Account.bank_name = "ABC Bank";
         // step 7: Call printInfo() and display the output
         Account1.PrintInfo();
-
-        // other customer
-        Customer_Account Account2 = new Customer_Account(2345678901, "Customer Name 2");
-        Account2.PrintInfo();
     }
 }
